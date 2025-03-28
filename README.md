@@ -1,4 +1,4 @@
-# 🎮 **Game Control App (Android)**
+# 🎮 **Fidget App**
 
 Welcome to the **Game Control App**! 🎉 This app provides a simple way to control a virtual character's movement using directional buttons. Built with **Kotlin** for **Android**, it allows you to toggle the game state and change the screen background color based on your actions. Let’s dive in! 🚀
 
