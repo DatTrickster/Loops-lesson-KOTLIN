@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="game_start">Game Started! Press a button.</string>
+    <string name="game_stop">Game Stopped!</string>
+    <string name="move_up">Moving Up 🚀</string>
+    <string name="move_down">Moving Down ⬇️</string>
+    <string name="move_left">Moving Left ⬅️</string>
+    <string name="move_right">Moving Right ➡️</string>
+    <string name="invalid_move">Invalid Move</string>
+    <string name="game_not_active">Game Not Active</string>
+    <string name="game_started">Game Started! Press a button.</string>
+</resources>

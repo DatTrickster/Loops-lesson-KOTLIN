@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/Background"
+    >
+
+    <!-- Start Game Button -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Press the Start button!"
+        android:textSize="24sp" />
+
+    <!-- Circular Button Layout -->
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Start Game"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <!-- Up Button (Top) -->
+        <Button
+            android:id="@+id/btnUp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#0000FF"
+            android:text="Up"
+            android:textColor="#FFFFFF" />
+
+        <!-- Right Button (Right) -->
+        <Button
+            android:id="@+id/btnRight"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="#FFEB3B"
+            android:text="Right"
+            android:textColor="#FFFFFF" />
+
+        <!-- Left Button (Left) -->
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="#008000"
+            android:text="Left"
+            android:textColor="#FFFFFF" />
+
+        <!-- Down Button (Bottom) -->
+        <Button
+            android:id="@+id/btnDown"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#F44336"
+            android:text="Down"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+</LinearLayout>
