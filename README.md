@@ -28,7 +28,7 @@ When the app starts:
 
 ---
 ## 🔄 **Code if else when **
---
+```kotlin
 if (isGameActive) {
     // If the game is active, execute the following block based on the direction
     when (direction) {
